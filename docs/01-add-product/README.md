@@ -8,232 +8,366 @@
 > > >
 > > > ## Overview
 > > >
-> > > The Add Product page allows sellers to create new product listings on Daraz. This documentation covers all sections and features of the product creation form.
-> > >
-> > > ## Table of Contents
-> > >
-> > > 1. [Basic Information](#1-basic-information)
-> > > 2. 2. [Product Images](#2-product-images)
-> > >    3. 3. [Video Section](#3-video-section)
-> > >       4. 4. [Product Specification](#4-product-specification)
-> > >          5. 5. [Price, Stock & Variants](#5-price-stock--variants)
-> > >             6. 6. [Product Description](#6-product-description)
-> > >                7. 7. [Shipping & Warranty](#7-shipping--warranty)
-> > >                  
-> > >                   8. ---
-> > >                  
-> > >                   9. ## 1. Basic Information
-> > >                  
-> > >                   10. ### Screenshot: Empty Form
-> > >
-> > > ![Empty Form](./images/screenshot-02-add-product-empty-form.png)
-> > >
-> > > | Field | Type | Required | Description |
-> > > |-------|------|----------|-------------|
-> > > | Product Name | Text Input | Yes (*) | Maximum 255 characters. Format: Product Name + Type + Key Features |
-> > > | Category | Selector | Yes (*) | Choose from predefined category tree |
-> > >
-> > > ### AI Category Suggestions
-> > >
-> > > ![AI Suggestions](./images/screenshot-03-product-name-with-suggestions.png)
-> > >
-> > > When you enter a product name, AI automatically suggests relevant categories based on keywords.
-> > >
-> > > **Example:** For "Samsung Galaxy A54 5G Smartphone 128GB Black":
-> > > - Mobiles & Tablets > Smart Phones ✓
-> > > - - Mobiles & Tablets > Tablets
-> > >   - - Mobiles & Tablets > Mobile Phone Accessories
-> > >    
-> > >     - ---
-> > >
-> > > ## 2. Product Images
-> > >
-> > > ### Upload Options
-> > >
-> > > ![Upload Options](./images/screenshot-05-product-images-section.png)
-> > >
-> > > | Option | Description |
-> > > |--------|-------------|
-> > > | Upload | Upload from local computer |
-> > > | Media Center | Select from your Media Center library |
-> > >
-> > > ### Requirements
-> > >
-> > > - **Minimum:** 3 images required
-> > > - - **Maximum:** 8 images allowed
-> > >   - - **Format:** JPG, PNG, JPEG
-> > >     - - **Size:** Less than 6MB per image
-> > >       - - **Background:** White or light-colored preferred
-> > >        
-> > >         - ### Media Center Modal
-> > >        
-> > >         - ![Media Center](./images/screenshot-06-media-center-modal.png)
-> > >        
-> > >         - ### Image Guidelines
-> > >
-> > > ![Guidelines](./images/screenshot-08-product-images-example-guidelines.png)
-> > >
-> > > **Do's:**
-> > > - Clean white background
-> > > - - Product clearly visible
-> > >   - - Professional lighting
-> > >     - - High resolution
-> > >      
-> > >       - **Don'ts:**
-> > >       - - Cluttered background
-> > >         - - Watermarks or logos
-> > >           - - Text overlays
-> > >             - - Poor lighting
-> > >              
-> > >               - ---
-> > >
-> > > ## 3. Video Section
-> > >
-> > > ![Video Options](./images/screenshot-09-video-youtube-link-option.png)
-> > >
-> > > | Option | Description |
-> > > |--------|-------------|
-> > > | Upload | Direct video upload (max 100MB) |
-> > > | YouTube Link | Embed existing YouTube video |
-> > >
-> > > **Supported formats:** wmv, avi, mpg, mpeg, 3gp, mov, mp4, flv, f4v, m4v, m2t, mts, rmvb, vob, mkv
+> > > The Add Product page in Daraz Seller Center allows sellers to create new product listings. This page contains multiple sections that must be completed to publish a product. The page includes a Content Score indicator on the right side that tracks completion progress.
 > > >
 > > > ---
 > > >
-> > > ## 4. Product Specification
+> > > ## Page Layout
 > > >
-> > > ### Brand Selection
+> > > The page is organized into the following main sections:
 > > >
-> > > ![Brand Search](./images/screenshot-10-product-specification-brand-search.png)
+> > > 1. Basic Information
+> > > 2. 2. Product Images
+> > >    3. 3. Video
+> > >       4. 4. Product Specification
+> > >          5. 5. Price, Stock & Variants
+> > >             6. 6. Product Description
+> > >                7. 7. Highlights
+> > >                   8. 8. Shipping & Warranty
+> > >                     
+> > >                      9. A **Content Score** panel appears on the right side showing completion status for each section.
+> > >                     
+> > >                      10. ---
+> > >                     
+> > >                      11. ## 1. Basic Information
 > > >
-> > > - Searchable dropdown
-> > > - - Fill Rate contribution: 13%
+> > > ![Basic Information Section](./images/screenshot-02-add-product-empty-form.png)
+> > >
+> > > This section contains the essential product identification fields.
+> > >
+> > > ### 1.1 Product Name
+> > >
+> > > | Property | Value |
+> > > |----------|-------|
+> > > | Field Type | Text Input |
+> > > | Required | Yes (*) |
+> > > | Character Limit | 255 characters |
+> > > | Character Counter | Displays current/max (e.g., 44/255) |
+> > >
+> > > **Description:** Enter the product title that will be displayed to customers. The field includes an AI-powered Bengali translation feature that automatically generates a translated version of the product name.
+> > >
+> > > **AI Translation Feature:**
+> > > - Displays "AI Bengali" badge
+> > > - - Shows translated text with character count
+> > >   - - Includes "Re-Generate" button to create new translation
+> > >    
+> > >     - ![AI Category Suggestions](./images/screenshot-03-product-name-with-suggestions.png)
+> > >    
+> > >     - ### 1.2 Category
+> > >    
+> > >     - | Property | Value |
+> > > |----------|-------|
+> > > | Field Type | Dropdown Selector |
+> > > | Required | Yes (*) |
+> > > | Selection | Hierarchical category tree |
+> > >
+> > > **Description:** Select the appropriate product category from Daraz's predefined category tree. The system displays:
+> > > - A dropdown showing the selected category path (e.g., "Mobiles & Tablets > Smart Phones")
+> > > - - "Recently used:" section showing previously selected categories as quick-select tags
 > > >  
-> > >   - ### Screen Size
+> > >   - **Category Suggestions:**
+> > >   - When you enter a product name, the system automatically suggests relevant categories based on keywords detected in the name.
 > > >  
-> > >   - ![Screen Size](./images/screenshot-12-screen-size-dropdown.png)
+> > >   - ---
+> > >
+> > > ## 2. Product Images
+> > >
+> > > ![Product Images Section](./images/screenshot-05-product-images-section.png)
+> > >
+> > > ### 2.1 Main Product Images
+> > >
+> > > | Property | Value |
+> > > |----------|-------|
+> > > | Field Type | Image Upload |
+> > > | Required | Yes (*) |
+> > > | Minimum | 3 images |
+> > > | Maximum | 8 images |
+> > >
+> > > **Upload Interface:**
+> > > - Click the "+" button to upload images
+> > > - - Supports drag and drop functionality
 > > >  
-> > >   - Options: Less than 5 Inch, 5 Inch, 5.1-5.4 Inch, 5.5 Inch, 5.6-5.9 Inch, 6 Inch and Above
+> > >   - ### 2.2 Buyer Promotion Image
+> > >  
+> > >   - | Property | Value |
+> > >   - |----------|-------|
+> > >   - | Field Type | Image Upload |
+> > >   - | Required | No |
+> > >   - | Label | "White Background Image" |
 > > >
-> > >   - ### Additional Specifications
-> > >
-> > >   - ![More Fields](./images/screenshot-14-show-more-additional-fields.png)
-> > >
-> > >   - | Field | Type | Fill Rate Impact |
-> > >   - |-------|------|-----------------|
-> > >   - | Network Connections | Dropdown | Variable |
-> > >   - | Operating System | Dropdown | Variable |
-> > >   - | Features | Multi-select | Variable |
-> > >   - | RAM Memory | Dropdown | Variable |
-> > >   - | Storage Capacity | Dropdown | Variable |
-> > >   - | Battery Capacity | Text Input | Variable |
-> > >   - | Screen Type | Dropdown | Variable |
-> > >   - | Camera (rear) | Text Input | Variable |
+> > >   - **Description:** Optional promotional image with white background. A "See Example" link is provided for guidance.
 > > >
 > > >   - ---
 > > >
+> > > ## 3. Video Section
+> > >
+> > > ![Video Section](./images/screenshot-06-video-youtube-link.png)
+> > >
+> > > ### Video Upload Options
+> > >
+> > > | Option | Description |
+> > > |--------|-------------|
+> > > | Upload Video | Direct video file upload |
+> > > | Youtube Link | Embed existing YouTube video URL |
+> > > | Media Center | Select from previously uploaded videos |
+> > >
+> > > **Upload Video Specifications:**
+> > > - Minimum size: 480x480 px
+> > > - - Maximum video length: 60 seconds
+> > >   - - Maximum file size: 100MB
+> > >     - - Supported Format: mp4
+> > >       - - Processing time: New video might take up to 36 hrs to be approved
+> > >        
+> > >         - ---
+> > >
+> > > ## 4. Product Specification
+> > >
+> > > ![Product Specification - Brand Search](./images/screenshot-07-brand-search-results.png)
+> > >
+> > > This section contains technical specifications that vary based on the selected category. For "Mobiles & Tablets > Smart Phones", the following fields are displayed:
+> > >
+> > > ### Fill Rate Indicator
+> > >
+> > > A progress bar shows the "Fill Rate" percentage (e.g., 0%). The description states: "Filling in attributes will increase product searchability, driving sales conversion."
+> > >
+> > > A "Click me" link allows reporting missing attributes.
+> > >
+> > > ### Specification Fields
+> > >
+> > > | Field | Type | Required |
+> > > |-------|------|----------|
+> > > | Brand | Dropdown (Searchable) | Yes (*) |
+> > > | Screen Size (inches) | Dropdown | Yes (*) |
+> > > | RAM Memory | Dropdown | Yes (*) |
+> > > | Camera Back (Megapixels) | Dropdown | Yes (*) |
+> > > | Camera Front (Megapixels) | Dropdown | Yes (*) |
+> > > | Operating System | Dropdown | Yes (*) |
+> > > | Number of SIM | Dropdown | Yes (*) |
+> > > | Battery Capacity (mAh) | Dropdown | Yes (*) |
+> > >
+> > > ![Brand Selected](./images/screenshot-08-brand-selected-fill-rate.png)
+> > >
+> > > **Show More:** Additional fields can be revealed by clicking "Show More" link.
+> > >
+> > > ---
+> > >
 > > > ## 5. Price, Stock & Variants
 > > >
-> > > ### Variant Configuration
+> > > ![Variant Color Options](./images/screenshot-09-variant-color-options.png)
 > > >
-> > > ![Variants Initial](./images/screenshot-16-price-stock-variants-initial.png)
+> > > **Section Description:** "You can add variants to a product that has more than one option, such as size or color."
 > > >
-> > > **Available variant types:**
-> > > - Color Family
-> > > - - Storage Capacity
-> > >   - - Size
-> > >     - - Bundle
-> > >      
-> > >       - ### Color Selection
-> > >      
-> > >       - ![Color Family](./images/screenshot-17-variant1-color-family-dropdown.png)
-> > >      
-> > >       - ### Storage Options
+> > > ### 5.1 Variant Configuration
 > > >
-> > > ![Storage](./images/screenshot-19-variant2-storage-capacity.png)
+> > > #### Variant1 (Required)
 > > >
-> > > Options: 8GB, 16GB, 32GB, 64GB, 128GB, 256GB, 512GB, 1TB, 2TB
+> > > | Property | Value |
+> > > |----------|-------|
+> > > | Variant Name | Color Family |
+> > > | Field Type | Multi-select Dropdown |
+> > > | Placeholder | "Please type or select" |
 > > >
-> > > ### Price & Stock Table
+> > > **Options Available:** The dropdown shows color options that can be selected for the product variants.
 > > >
-> > > ![Price Table](./images/screenshot-20-variants-configured-price-stock-table.png)
+> > > ![Variant Black Selected](./images/screenshot-10-variant-black-selected.png)
 > > >
-> > > | Column | Type | Required |
-> > > |--------|------|----------|
-> > > | Variant | Display | - |
-> > > | Price (৳) | Number | Yes |
-> > > | Special Price (৳) | Number | Yes |
-> > > | Seller SKU | Text | Yes |
-> > > | Free Items | Text | No |
-> > > | Quantity | Number | Yes |
-> > > | SellerSKU Image | Upload | No |
+> > > #### Variant2 (Optional)
+> > >
+> > > | Property | Value |
+> > > |----------|-------|
+> > > | Variant Name | Storage Capacity |
+> > > | Field Type | Multi-select Dropdown |
+> > >
+> > > **Add Image:** Checkbox option to add images for each variant (Max 8 images per variant).
+> > >
+> > > **Total Variants:** Displays the combination of all selected variant options.
+> > >
+> > > ### 5.2 Price & Stock Table
+> > >
+> > > | Column | Description |
+> > > |--------|-------------|
+> > > | Price (*) | Enter selling price in local currency (৳) |
+> > > | Special Price | Optional discounted price with "Add" link |
+> > > | Stock | Inventory quantity |
+> > > | SellerSKU | Unique seller SKU identifier (0/200 character limit) |
+> > > | Free Items | Optional free items with purchase |
+> > > | Availability | Toggle switch (On/Off) to control listing visibility |
 > > >
 > > > ---
 > > >
 > > > ## 6. Product Description
 > > >
-> > > ### Rich Text Editor
+> > > ![Product Description Editor](./images/screenshot-11-product-description-editor.png)
 > > >
-> > > ![Editor](./images/screenshot-21-product-description-main-editor.png)
+> > > ### Main Description Editor
 > > >
-> > > **Toolbar features:** Bold, Italic, Underline, Font Size, Text Color, Alignment, Lists, Image, Link, Table
+> > > | Property | Value |
+> > > |----------|-------|
+> > > | Field Type | Rich Text Editor |
+> > > | Placeholder | "Please input" |
 > > >
-> > > ### Advanced Mode
+> > > **Editor Toolbar:**
+> > > - Font size selector (11, etc.)
+> > > - - Text alignment (left, center, right, justify)
+> > >   - - Bullet list
+> > >     - - Numbered list
+> > >       - - Image insertion
+> > >        
+> > >         - **Mode Options:**
+> > >         - - "Advanced Mode" button - For enhanced editing features
+> > >           - - "Preview" button - To preview formatted content
+> > >            
+> > >             - ![Product Description Section](./images/screenshot-12-product-description-section.png)
+> > >            
+> > >             - ---
 > > >
-> > > ![Advanced Mode](./images/screenshot-23-advanced-mode-component-tab.png)
+> > > ## 7. Highlights
 > > >
-> > > **Components:**
-> > > - Image layouts (1-4 slots)
-> > > - - Text & Image combinations
-> > >   - - Free Design (drag-and-drop)
-> > >    
-> > >     - ### Pre-built Templates
-> > >    
-> > >     - ![Templates](./images/screenshot-25-lazada-design-templates.png)
-> > >    
-> > >     - | Template | Industry |
-> > > |----------|----------|
-> > > | EL Template | Electronics |
-> > > | FMCG Template | Fast-Moving Consumer Goods |
-> > > | Fashion Template | Fashion/Apparel |
+> > > ![Highlights Section](./images/screenshot-13-highlights-section.png)
+> > >
+> > > | Property | Value |
+> > > |----------|-------|
+> > > | Field Type | Bulleted List Editor |
+> > > | Required | Yes (*) |
+> > > | Placeholder | "Please input" |
+> > >
+> > > **Description:** Add key product highlights as bullet points that will appear prominently on the product listing.
+> > >
+> > > **Features:**
+> > > - List icon button for bullet formatting
+> > > - - Language selector dropdown (English)
+> > >  
+> > >   - ### What's in the box
+> > >  
+> > >   - | Property | Value |
+> > >   - |----------|-------|
+> > >   - | Field Type | Text Input |
+> > >   - | Required | Yes (*) |
+> > >
+> > >   - **Description:** Describe what items are included with the product.
+> > >
+> > >   - **Show More:** Link to reveal additional fields.
+> > >
+> > >   - ---
+> > >
+> > > ## 8. Shipping & Warranty
+> > >
+> > > ![Shipping & Warranty Section](./images/screenshot-14-shipping-warranty-section.png)
+> > >
+> > > ### 8.1 Package Dimensions Toggle
+> > >
+> > > **Toggle Description:** "Switch to enter different package dimensions & weight for variations"
+> > >
+> > > When enabled, allows setting different shipping specifications for each variant.
+> > >
+> > > ### 8.2 Package Weight
+> > >
+> > > | Property | Value |
+> > > |----------|-------|
+> > > | Field Type | Number Input |
+> > > | Required | Yes (*) |
+> > > | Range | 0.001~300 |
+> > > | Unit | kg (dropdown) |
+> > >
+> > > ### 8.3 Package Dimensions
+> > >
+> > > | Field | Range | Unit |
+> > > |-------|-------|------|
+> > > | Length | 0.01~300 | cm |
+> > > | Width | 0.01~300 | cm |
+> > > | Height | 0.01~300 | cm |
+> > >
+> > > **Help Link:** "How to measure my package dimensions? View Example"
+> > >
+> > > ### 8.4 Dangerous Goods
+> > >
+> > > | Option | Description |
+> > > |--------|-------------|
+> > > | None | Product contains no hazardous materials |
+> > > | Contains battery / flammables / liquid | Product contains restricted items |
+> > >
+> > > ### 8.5 More Warranty Settings
+> > >
+> > > Expandable section with "More Warranty Settings" link for additional warranty configuration options.
 > > >
 > > > ---
 > > >
-> > > ## 7. Shipping & Warranty
+> > > ## Content Score Panel
 > > >
-> > > ### Package Information
+> > > Located on the right side of the page, this panel provides real-time feedback on listing completeness.
 > > >
-> > > ![Shipping](./images/screenshot-26-shipping-warranty-basic.png)
+> > > ### Score Display
 > > >
-> > > | Field | Type | Unit | Required |
-> > > |-------|------|------|----------|
-> > > | Package Weight | Number | kg | Yes |
-> > > | Package Length | Number | cm | Yes |
-> > > | Package Width | Number | cm | Yes |
-> > > | Package Height | Number | cm | Yes |
+> > > - Progress indicator showing current score (e.g., "Poor", "Good", "Excellent")
+> > > - - Refresh button to recalculate score
+> > >  
+> > >   - ### Section Checklist
+> > >  
+> > >   - Each section shows completion status with indicators:
+> > >   - - ⭕ Empty circle - Section incomplete
+> > >     - - 🟠 Orange circle - Section partially complete
+> > >       - - 🟢 Green circle - Section complete
+> > >        
+> > >         - **Sections tracked:**
+> > >         - 1. Basic Information
+> > >           2.    - Sub-item: "Add min 3 main images"
+> > >                 - 2. Product Specification
+> > >                   3. 3. Price, Stock & Variants
+> > >                      4. 4. Product Description
+> > >                         5.    - Sub-item: "Add min 1 image in description"
+> > >                               -    - Sub-item: "Add min 30 words in description"
+> > >                                    - 5. Shipping & Warranty
+> > >                                     
+> > >                                      6. ---
+> > >                                     
+> > >                                      7. ## Tips Panel
+> > >                                     
+> > >                                      8. A "Tips" section provides guidance:
 > > >
-> > > ### Dangerous Goods
-> > >
-> > > Options: None, Contains Battery, Flammable, Other
-> > >
-> > > ### Warranty Settings
-> > >
-> > > ![Warranty](./images/screenshot-27-shipping-warranty-full.png)
-> > >
-> > > | Field | Type | Options |
-> > > |-------|------|---------|
-> > > | Warranty Type | Dropdown | No Warranty, Brand, Seller, Local |
-> > > | Warranty Duration | Dropdown | 1 month to 2+ years |
-> > > | Warranty Policy | Text Area | Free text |
-> > > | Return Policy | Text Input | Custom policy |
-> > >
-> > > ---
-> > >
-> > > ## Summary
-> > >
-> > > **Total Sections:** 7 main sections
-> > > **Required Fields:** Product Name, Category, Images (min 3), Price, SKU, Quantity, Package Info
-> > >
-> > > ---
-> > >
-> > > *Last Updated: January 17, 2026*
+> > > > "Please make sure to upload product images(s), fill product name, and select the correct category to publish a product."
+> > > >
+> > > > ---
+> > > >
+> > > > ## Action Buttons
+> > > >
+> > > > Located at the bottom of the page:
+> > > >
+> > > > | Button | Style | Action |
+> > > > |--------|-------|--------|
+> > > > | Save Draft | Orange outline | Saves current progress without publishing |
+> > > > | Submit | Orange filled | Submits product for review/publishing |
+> > > >
+> > > > ---
+> > > >
+> > > > ## Additional Screenshots Reference
+> > > >
+> > > > | Screenshot | Description |
+> > > > |------------|-------------|
+> > > > | screenshot-01-manage-products-dashboard.png | Manage Products main page |
+> > > > | screenshot-02-add-product-empty-form.png | Empty Add Product form |
+> > > > | screenshot-03-product-name-with-suggestions.png | AI category suggestions |
+> > > > | screenshot-04-category-selected-form-expanded.png | Form with category selected |
+> > > > | screenshot-05-product-images-section.png | Product Images upload area |
+> > > > | screenshot-06-video-youtube-link.png | Video upload options |
+> > > > | screenshot-07-brand-search-results.png | Brand dropdown search |
+> > > > | screenshot-08-brand-selected-fill-rate.png | Brand selected with fill rate |
+> > > > | screenshot-09-variant-color-options.png | Variant color selection |
+> > > > | screenshot-10-variant-black-selected.png | Variant with black selected |
+> > > > | screenshot-11-product-description-editor.png | Description rich text editor |
+> > > > | screenshot-12-product-description-section.png | Product description section |
+> > > > | screenshot-13-highlights-section.png | Highlights input area |
+> > > > | screenshot-14-shipping-warranty-section.png | Shipping and warranty fields |
+> > > >
+> > > > ---
+> > > >
+> > > > ## Navigation
+> > > >
+> > > > **Breadcrumb:** Homepage > Manage Products > Add Product
+> > > >
+> > > > **Sidebar Navigation:** The left sidebar provides access to other Seller Center modules.
+> > > >
+> > > > **Country Selector:** Right side shows country flags for multi-region sellers (Pakistan, Bangladesh, Myanmar, Nepal, Sri Lanka).
+> > > >
+> > > > ---
+> > > >
+> > > > *Documentation last updated: January 2026*
