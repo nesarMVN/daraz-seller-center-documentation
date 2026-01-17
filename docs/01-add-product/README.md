@@ -35,7 +35,7 @@
 > > >
 > > > ### AI Category Suggestions
 > > >
-> > > ![AI Suggestions](./images/screenshot-03-product-name-with-ai-suggestions.png)
+> > > ![AI Suggestions](./images/screenshot-03-product-name-with-suggestions.png)
 > > >
 > > > When you enter a product name, AI automatically suggests relevant categories based on keywords.
 > > >
@@ -50,7 +50,7 @@
 > > >
 > > > ### Upload Options
 > > >
-> > > ![Upload Options](./images/screenshot-05-product-images-upload-options.png)
+> > > ![Upload Options](./images/screenshot-05-product-images-section.png)
 > > >
 > > > | Option | Description |
 > > > |--------|-------------|
