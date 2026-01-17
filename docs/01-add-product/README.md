@@ -371,3 +371,122 @@
 > > > > ---
 > > > >
 > > > > *Documentation last updated: January 2026*
+> > > > 
+---
+
+## Internal Relationships and Advanced Features
+
+### Category-Specification Relationship
+
+The Product Specification fields are dynamically generated based on the selected category. Different product categories have completely different specification fields tailored to their specific attributes.
+
+#### Fashion Category Example: Dresses
+
+When the category "Fashion > Women > Clothing > Dresses" is selected, the following specification fields appear:
+
+![Fashion Category Specifications](./images/screenshot-15-fashion-category-specifications.png)
+
+**Fashion-Specific Fields:**
+
+| Field Name | Field Type | Description |
+|------------|-----------|-------------|
+| Brand | Dropdown (required) | Product brand selection |
+| Main Material | Text (KEY) | Primary fabric material - marked as KEY for searchability |
+| Dress Length | Dropdown | Options: Short, Long, Mini, Midi, Knee Length, Ankle Length, Floor Length, Above Knee |
+| Women's Trend | Dropdown | Current fashion trend classification |
+| Age Range | Dropdown | Target age demographic |
+| Apparel Type | Text | Type of clothing |
+| Collar Type | Dropdown | Collar style options |
+| Dress Shape | Dropdown | Silhouette/cut of the dress |
+| Pattern | Dropdown | Design pattern (solid, striped, etc.) |
+| Sleeves | Dropdown | Options: 3/4 Sleeve, Long Sleeve, Sleeveless, Short Sleeve, Roll-up Sleeves, Extra Long Sleeves, Cap Sleeves, Half Sleeves |
+| Care instructions | Dropdown | Washing and care guidelines |
+
+![Dress Length Options](./images/screenshot-17-dress-length-dropdown-options.png)
+
+![Sleeves Options](./images/screenshot-18-sleeves-dropdown-options.png)
+
+#### Home Appliances Category Example: Floor Polishers
+
+When the category "Home Appliances > Vacuums & Floor Care > Floor Polishers" is selected, completely different specification fields appear:
+
+![Home Appliances Specifications](./images/screenshot-16-home-appliances-specifications.png)
+
+**Home Appliances-Specific Fields:**
+
+| Field Name | Field Type | Description |
+|------------|-----------|-------------|
+| Brand | Dropdown (required) | Product brand selection |
+| Model | Text | Product model number |
+| Wattage | Dropdown | Power consumption rating |
+| Home Features | Text | Special home features |
+| Power | Text | Power specifications |
+| Imported | Text | Import status information |
+
+### Category Change Warning
+
+When changing from one category to another, a confirmation dialog appears:
+
+> "Changing category will not effect basic attributes such as 'Name', 'Brand', 'Description' or product ratings and performance history. However, some category-specific attributes may be removed. Any changes will not be final until you click 'Publish'. Do you still want to continue?"
+>
+> This indicates that category-specific Product Specification fields will be cleared when switching categories.
+>
+> ---
+>
+> ### Shipping & Warranty Details
+>
+> The Shipping & Warranty section contains both basic and advanced settings.
+>
+> #### Basic Shipping Fields
+>
+> | Field | Type | Range/Options | Required |
+> |-------|------|---------------|----------|
+> | Package Weight | Number + Dropdown | 0.001~300 kg | Yes |
+> | Package Length | Number | 0.01~300 cm | Yes |
+> | Package Width | Number | 0.01~300 cm | Yes |
+> | Package Height | Number | 0.01~300 cm | Yes |
+> | Dangerous Goods | Radio | None, Contains battery/flammables/liquid | Yes |
+>
+> A toggle switch allows entering different package dimensions for product variants.
+>
+> #### Advanced Warranty Settings (Hidden by Default)
+>
+> Click "More Warranty Settings" to reveal additional fields:
+>
+> ![Warranty Type Options](./images/screenshot-19-warranty-type-dropdown-options.png)
+>
+> | Field | Type | Options |
+> |-------|------|---------|
+> | Warranty Type | Dropdown | No Warranty, Brand Warranty, Seller Warranty |
+> | Warranty Duration | Dropdown | 1 Month through 25 Years, Life Time Warranty |
+> | Warranty Policy | Text (Multi-language) | Custom warranty terms |
+> | Return Policy | Text | Custom return policy |
+>
+> ---
+>
+> ### Price, Stock & Variants Relationship with Category
+>
+> The Variant Name is automatically set based on category:
+>
+> | Category Type | Default Variant Name |
+> |---------------|---------------------|
+> | Fashion (Clothing) | Color Family |
+> | Electronics | May include Storage, RAM, etc. |
+> | Home Appliances | Color Family |
+>
+> ---
+>
+> ### Additional Screenshots Reference (Continued)
+>
+> | Screenshot | Description |
+> |------------|-------------|
+> | screenshot-15-fashion-category-specifications.png | Fashion category expanded specification fields |
+> | screenshot-16-home-appliances-specifications.png | Home Appliances category specification fields |
+> | screenshot-17-dress-length-dropdown-options.png | Dress Length dropdown showing all options |
+> | screenshot-18-sleeves-dropdown-options.png | Sleeves dropdown showing all options |
+> | screenshot-19-warranty-type-dropdown-options.png | Warranty Type dropdown options |
+> | screenshot-20-fashion-dresses-full-page.png | Full page view of Fashion > Dresses category |
+>
+> ---
+>
+> *Documentation updated: January 2026*
