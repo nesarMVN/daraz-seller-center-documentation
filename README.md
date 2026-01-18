@@ -10,6 +10,7 @@ Complete documentation of Daraz Seller Center features with screenshots.
 | 2 | [Media Center](./docs/02-media-center/README.md) | Manage product images and videos in a centralized media library |
 | 3 | [Manage Products](./docs/03-manage-products/README.md) | View, organize, filter, and manage all product listings |
 | 4 | [Brand Management](./docs/04-brand-management/README.md) | Manage brand authorizations and DarazMall eligibility |
+| 5 | [Opportunity Center](./docs/05-opportunity-center/README.md) | Discover trending products and receive traffic boosting benefits |
 
 ## Quick Links
 
