@@ -9,6 +9,7 @@ Complete documentation of Daraz Seller Center features with screenshots.
 | 1 | [Add Product](./docs/01-add-product/README.md) | Create new product listings with images, variants, specifications, and shipping details |
 | 2 | [Media Center](./docs/02-media-center/README.md) | Manage product images and videos in a centralized media library |
 | 3 | [Manage Products](./docs/03-manage-products/README.md) | View, organize, filter, and manage all product listings |
+| 4 | [Brand Management](./docs/04-brand-management/README.md) | Manage brand authorizations and DarazMall eligibility |
 
 ## Quick Links
 
