@@ -268,8 +268,98 @@ A blue information alert appears below the header with format-specific guidance:
 
                                                                                              - **Add Products:** Uses Media Center images for product listings
                                                                                              - - **Manage Products:** Edit product images via Media Center integration
-                                                                                               - - **Store Decoration:** May use Media Center for banner images
+                                                                                               - - **Store Decoration:** May use Media Center for banner image
                                                                                                 
+                                                                                               ## Screenshots Reference
+
+### 1. Media Center Main Page (Image Tab Selected)
+
+![Media Center Overview](images/screenshot-01-media-center-overview.png)
+
+*Media Center main page showing the Image tab (default view) with folders and action buttons*
+
+---
+
+### 2. Video Tab View
+
+![Video Tab](images/screenshot-02-video-tab.png)
+
+*Video tab view displaying "No Data" state with Upload video button*
+
+---
+
+### 3. Create New Folder Dialog
+
+![Create Folder Dialog](images/screenshot-03-create-folder-dialog.png)
+
+*Create new folder dialog with input field for folder name (max 40 characters)*
+
+---
+
+### 4. Folder Created Successfully
+
+![Folder Created](images/screenshot-04-folder-created.png)
+
+*Media Center showing newly created folder alongside existing folders*
+
+---
+
+### 5. Upload Image Modal - Drag & Drop
+
+![Upload Image Modal](images/screenshot-05-upload-image-modal.png)
+
+*Upload Image modal with drag-and-drop zone and format requirements*
+
+---
+
+### 6. URL Upload Tab
+
+![URL Upload Tab](images/screenshot-06-url-upload-tab.png)
+
+*URL Upload tab allowing image upload from external URLs*
+
+---
+
+### 7. Inside Folder with Breadcrumb Navigation
+
+![Inside Folder](images/screenshot-07-inside-folder.png)
+
+*View inside a folder showing breadcrumb navigation (Image > Folder Name)*
+
+---
+
+### 8. Upload Modal with Drag-Drop Zone
+
+![Upload Modal Drag Drop](images/screenshot-08-upload-modal-drag-drop.png)
+
+*Detailed view of the upload modal showing the drag-and-drop interface*
+
+---
+
+### 9. Create Folder with Name Filled
+
+![Create Folder Filled](images/screenshot-09-create-folder-filled.png)
+
+*Create folder dialog with example folder name entered*
+
+---
+
+### 10. Folder Navigation Breadcrumb
+
+![Folder Navigation Breadcrumb](images/screenshot-10-folder-navigation-breadcrumb.png)
+
+*Inside folder view demonstrating breadcrumb navigation functionality*
+
+---
+
+### 11. Video Tab - No Data State
+
+![Video Tab No Data](images/screenshot-11-video-tab-no-data.png)
+
+*Video tab displaying empty state with "No Data" illustration and upload button*
+
+---
                                                                                                  - ---
 
                                                                                                  *Last Updated: January 2026*
+Page_UpPage_UpPage_UpPage_Up
