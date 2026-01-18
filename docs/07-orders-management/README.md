@@ -35,6 +35,10 @@ Eight horizontal tabs for filtering orders by status:
 
 **Purpose:** Main workspace for processing orders ready for shipment.
 
+![To Ship Main View](images/screenshot-01-to-ship-main.png)
+
+*Order Management page showing "To Ship" tab selected, three sub-status filters (To Pack, To Arrange Shipment, To Handover), NEW Fulfillment SLA section with breach checkboxes, Print Status filters (AWB, Invoice, PickList), Order Number search, and empty data table with Product, Total Amount, Delivery, Status, Actions columns.*
+
 ### Sub-Status Filters
 
 Three radio button options for refined order filtering:
@@ -113,6 +117,10 @@ Six checkbox options for document printing status:
 
 **Fold Button:** Collapses expanded filters back to basic view
 
+![To Ship Expanded Filters](images/screenshot-02-to-ship-filters.png)
+
+*"More" button clicked revealing expanded filter options: Order Date buttons (Today, Yesterday, Last 7 days, Last 30 days, Custom with date range), Product Name search, Delivery Type dropdown, Seller SKU search, Customer Name search, Order Type dropdown, Payment Channel dropdown, and "Fold" button to collapse filters.*
+
 ### Bulk Actions
 
 Located above order table:
@@ -172,6 +180,10 @@ Bottom of page:
 ## All Tab
 
 **Purpose:** View complete order history across all statuses.
+
+![All Orders Tab](images/screenshot-03-all-orders-tab.png)
+
+*"All" tab selected showing different interface: Order Type filter buttons (All, Normal), Order Number and Tracking Number search fields, Order Date filters, "More" button, table with same columns, Sort By dropdown set to "Newest Order Created", and Export button.*
 
 ### Unique Features
 
@@ -418,6 +430,10 @@ Bottom of page:
 ## Return Orders Page (Dedicated View)
 
 **URL:** https://sellercenter.daraz.com.bd/apps/order/reverse
+
+![Return Orders Main](images/screenshot-04-return-orders-main.png)
+
+*Separate Return Orders page with "Return to Daraz Warehouse" and "Refund Only" toggle buttons, green feedback banner, seven status tabs (All, Return Initiated, Return in Progress, QC in Progress, Returned, Scrapped, Cancelled with info icons), date filter buttons, Order ID and Customer Phone search dropdowns, Export and View history buttons, and decorative empty state illustration.*
 
 ### Top Options
 
@@ -1110,30 +1126,6 @@ Decorative illustration:
 - [**Add Product**](../01-add-product/README.md) - List products for sale
 - [**Manage Products**](../03-manage-products/README.md) - Update inventory and pricing
 - [**Media Center**](../02-media-center/README.md) - Manage product images
-
----
-
-## Screenshots Reference
-
-### Screenshot 1: To Ship Tab - Main View
-![To Ship Main View](images/screenshot-01-to-ship-main.png)
-
-Order Management page showing "To Ship" tab selected, three sub-status filters (To Pack, To Arrange Shipment, To Handover), NEW Fulfillment SLA section with breach checkboxes, Print Status filters (AWB, Invoice, PickList), Order Number search, and empty data table with Product, Total Amount, Delivery, Status, Actions columns.
-
-### Screenshot 2: To Ship Tab - Expanded Filters
-![To Ship Expanded Filters](images/screenshot-02-to-ship-filters.png)
-
-"More" button clicked revealing expanded filter options: Order Date buttons (Today, Yesterday, Last 7 days, Last 30 days, Custom with date range), Product Name search, Delivery Type dropdown, Seller SKU search, Customer Name search, Order Type dropdown, Payment Channel dropdown, and "Fold" button to collapse filters.
-
-### Screenshot 3: All Tab View
-![All Orders Tab](images/screenshot-03-all-orders-tab.png)
-
-"All" tab selected showing different interface: Order Type filter buttons (All, Normal), Order Number and Tracking Number search fields, Order Date filters, "More" button, table with same columns, Sort By dropdown set to "Newest Order Created", and Export button.
-
-### Screenshot 4: Return Orders Page
-![Return Orders Main](images/screenshot-04-return-orders-main.png)
-
-Separate Return Orders page (URL: /apps/order/reverse) with "Return to Daraz Warehouse" and "Refund Only" toggle buttons, green feedback banner with Lazada link, seven status tabs (All, Return Initiated, Return in Progress, QC in Progress, Returned, Scrapped, Cancelled with info icons), date filter buttons, Order ID and Customer Phone search dropdowns, Export and View history buttons, and decorative empty state illustration with magnifying glass and pastel gradient background.
 
 ---
 
