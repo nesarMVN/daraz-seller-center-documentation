@@ -11,6 +11,7 @@ Complete documentation of Daraz Seller Center features with screenshots.
 | 3 | [Manage Products](./docs/03-manage-products/README.md) | View, organize, filter, and manage all product listings |
 | 4 | [Brand Management](./docs/04-brand-management/README.md) | Manage brand authorizations and DarazMall eligibility |
 | 5 | [Opportunity Center](./docs/05-opportunity-center/README.md) | Discover trending products and receive traffic boosting benefits |
+| 6 | [Assortment Growth Center](./docs/06-assortment-growth-center/README.md) | Optimize product portfolio through four-stage growth journey |
 
 ## Quick Links
 
