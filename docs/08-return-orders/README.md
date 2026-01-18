@@ -65,6 +65,10 @@ Seven tabs representing different stages of the return-to-warehouse process:
 
 **Info Icons:** Hoverable tooltips provide detailed explanations of each status
 
+![Warehouse Status Tabs](images/screenshot-03-warehouse-status-tabs.png)
+
+*Detailed view of the seven status tabs for Return to Daraz Warehouse workflow with info icons on Returned, Scrapped, and Cancelled tabs.*
+
 ### Date Filters
 
 Five preset date range options:
@@ -150,6 +154,10 @@ Seven tabs for refund-only request lifecycle:
 5. **Refund Issued** - Refund payment processed
 6. **Refund Only Request Closed** - Request completed/resolved
 7. **Rejected** - Request denied by seller or platform
+
+![Refund Status Tabs](images/screenshot-04-refund-status-tabs.png)
+
+*Detailed view of the seven status tabs for Refund Only workflow.*
 
 ### Date Filters
 
