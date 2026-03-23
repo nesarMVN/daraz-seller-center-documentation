@@ -1,0 +1,318 @@
+{
+	"message": "Product retrieved successfully",
+	"data": {
+		"id": "01KJJJD0M7E89XNX0EZDNY33V6",
+		"etag": "29364180-0d2d-4541-babf-9629629afac2",
+		"meta": { "data": [], "object": "ProductMeta" },
+		"slug": "kingbank-computer-desktop-memory-ram-ddr5-16gb-2x8gb-6000mt-s-cl36-1-35v-overclocking-xmp-3-0-amd-expo-with-heatsink-for-pc-gaming-office-ps-silver-at-amazon-com",
+		"image": "https:\/\/m.media-amazon.com\/images\/I\/61jSWw3xpyL._AC_SL1280_.jpg",
+		"price": {
+			"base": {
+				"max": 265.99,
+				"min": 265.99,
+				"object": "ProductPriceRange",
+				"exchange_rate": 1,
+				"source_currency": "USD",
+				"target_currency": "USD"
+			},
+			"object": "ProductPrice",
+			"discount": { "max": 36573.625, "min": 36573.625, "object": "ProductPriceRange" },
+			"original": { "max": 36573.625, "min": 36573.625, "object": "ProductPriceRange" },
+			"wholesales": { "data": [], "object": "WholesalePriceCollection" }
+		},
+		"sales": 999,
+		"stock": 2,
+		"title": "KingBank Computer Desktop Memory Ram DDR5 16GB(2x8GB) 6000MT\/s CL36 1.35V Overclocking XMP 3.0 & AMD Expo with Heatsink for PC Gaming\/Office\/PS,Silver at Amazon.com",
+		"object": "ProductDetail",
+		"seller": {
+			"id": "01KJJJD0NSKY47V250DXRCKBSD",
+			"link": "https:\/\/www.amazon.com\/gp\/help\/seller\/at-a-glance.html\/ref=dp_merchant_link?ie=UTF8&seller=A1IH0OXGTHPUE&asin=B0GF7QL37W&ref_=dp_merchant_link&isAmazonFulfilled=1",
+			"meta": {
+				"comprehensive_score": 0,
+				"logistics_score": 0,
+				"disputes_score": 0,
+				"products_score": 0,
+				"after_sales_services_score": 0
+			},
+			"name": "CHENG LIN TRADING LIMITED",
+			"object": "Seller",
+			"ratings": null,
+			"vendor_id": null,
+			"name_original": null,
+			"encryption_status": "not-encrypted"
+		},
+		"videos": { "data": [], "object": "ProductVideoCollection" },
+		"country": { "code": "US", "name": "USA", "object": "Country" },
+		"gallery": {
+			"data": [
+				{
+					"id": "da2edd02-7e1d-4936-9c4c-2a4972671be4",
+					"alt": null,
+					"url": "https:\/\/m.media-amazon.com\/images\/I\/61jSWw3xpyL._AC_SL1280_.jpg",
+					"thumb": "https:\/\/m.media-amazon.com\/images\/I\/61jSWw3xpyL._AC_SL1280_.jpg",
+					"title": null,
+					"object": "ProductGallery"
+				},
+				{
+					"id": "49c544b9-8d16-4abf-86b9-69467cf9e32c",
+					"alt": null,
+					"url": "https:\/\/m.media-amazon.com\/images\/I\/71Oe2mycDlL._AC_SL1500_.jpg",
+					"thumb": "https:\/\/m.media-amazon.com\/images\/I\/71Oe2mycDlL._AC_SL1500_.jpg",
+					"title": null,
+					"object": "ProductGallery"
+				},
+				{
+					"id": "2f459ca1-3090-4515-aeef-fb00d778106a",
+					"alt": null,
+					"url": "https:\/\/m.media-amazon.com\/images\/I\/81Wx1LWYkLL._AC_SL1500_.jpg",
+					"thumb": "https:\/\/m.media-amazon.com\/images\/I\/81Wx1LWYkLL._AC_SL1500_.jpg",
+					"title": null,
+					"object": "ProductGallery"
+				},
+				{
+					"id": "8c2e394d-7849-4e4e-bd96-8a6cd0f0d913",
+					"alt": null,
+					"url": "https:\/\/m.media-amazon.com\/images\/I\/81eumV8ToVL._AC_SL1500_.jpg",
+					"thumb": "https:\/\/m.media-amazon.com\/images\/I\/81eumV8ToVL._AC_SL1500_.jpg",
+					"title": null,
+					"object": "ProductGallery"
+				},
+				{
+					"id": "f901fa6b-d187-4b8d-8735-d2a66a3684bf",
+					"alt": null,
+					"url": "https:\/\/m.media-amazon.com\/images\/I\/71POyi1VwPL._AC_SL1500_.jpg",
+					"thumb": "https:\/\/m.media-amazon.com\/images\/I\/71POyi1VwPL._AC_SL1500_.jpg",
+					"title": null,
+					"object": "ProductGallery"
+				},
+				{
+					"id": "afc0f970-81eb-4067-b3a4-cf2b8668285b",
+					"alt": null,
+					"url": "https:\/\/m.media-amazon.com\/images\/I\/81r-BMxOTuL._AC_SL1500_.jpg",
+					"thumb": "https:\/\/m.media-amazon.com\/images\/I\/81r-BMxOTuL._AC_SL1500_.jpg",
+					"title": null,
+					"object": "ProductGallery"
+				}
+			],
+			"object": "ProductGalleryCollection"
+		},
+		"ratings": { "count": 130, "object": "Rating", "average": 4.5, "frequency": [] },
+		"variation": {
+			"skus": {
+				"data": [
+					{
+						"id": "01KJJJD0N4AMVBBGV8231CC8HG",
+						"etag": "e728268f-9f16-466e-aa56-99fe88043924",
+						"meta": { "data": [], "object": "SkuMetaCollection" },
+						"image": "https:\/\/m.media-amazon.com\/images\/I\/41u1jis0GxL.jpg",
+						"price": {
+							"object": "SkuPrice",
+							"currency": "USD",
+							"discount": 36573.625,
+							"original": 36573.625,
+							"preorder": null,
+							"wholesales": { "data": [], "object": "WholesalePriceCollection" }
+						},
+						"stock": {
+							"min": null,
+							"limit": 0,
+							"object": "SkuStock",
+							"available": 2,
+							"availability": "available"
+						},
+						"object": "Sku",
+						"vendor_id": "B0GF7QL37W",
+						"property_associations": {
+							"data": [
+								{
+									"id": "da625df3-48a8-4bf4-afe6-49e5173f86d5",
+									"object": "PropertyAssociation",
+									"property_id": "01KJJJD0N40QSDBD8R4ZTVVX1P",
+									"property_value_id": "01KJJJD0N4MY71773SQXZPHWX8"
+								},
+								{
+									"id": "e36d3d77-2816-4e15-b0cd-680ecf95b9a2",
+									"object": "PropertyAssociation",
+									"property_id": "01KJJJD0N41A8BYHNJ458V3Z0Z",
+									"property_value_id": "01KJJJD0N46H9FYEPAR0PD521X"
+								}
+							],
+							"object": "PropertyAssociationCollection"
+						}
+					}
+				],
+				"object": "SkuCollection"
+			},
+			"object": "ProductVariation",
+			"properties": {
+				"data": [
+					{
+						"id": "01KJJJD0N40QSDBD8R4ZTVVX1P",
+						"name": "Size",
+						"object": "Property",
+						"values": {
+							"data": [
+								{
+									"id": "01KJJJD0N4MY71773SQXZPHWX8",
+									"name": "DDR5 6000MHZ H",
+									"color": null,
+									"image": null,
+									"thumb": null,
+									"title": "DDR5 6000MHZ H",
+									"object": "PropertyValue",
+									"name_original": "DDR5 6000MHZ H",
+									"title_original": "DDR5 6000MHZ H"
+								}
+							],
+							"object": "PropertyValueCollection"
+						},
+						"name_original": "Size"
+					},
+					{
+						"id": "01KJJJD0N41A8BYHNJ458V3Z0Z",
+						"name": "Color",
+						"object": "Property",
+						"values": {
+							"data": [
+								{
+									"id": "01KJJJD0N46H9FYEPAR0PD521X",
+									"name": "silver",
+									"color": null,
+									"image": "https:\/\/m.media-amazon.com\/images\/I\/41u1jis0GxL.jpg",
+									"thumb": "https:\/\/m.media-amazon.com\/images\/I\/41u1jis0GxL.jpg",
+									"title": "silver",
+									"object": "PropertyValue",
+									"name_original": "silver",
+									"title_original": "silver"
+								}
+							],
+							"object": "PropertyValueCollection"
+						},
+						"name_original": "Color"
+					}
+				],
+				"object": "PropertyCollection"
+			}
+		},
+		"description": "<p><b>RAM Memory Technology<\/b> : DDR5<\/p><p><b>Memory Speed<\/b> : 6000 MT\/s<\/p><p><b>Compatible Devices<\/b> : Desktop<\/p><p><b>Additional Features<\/b> : Auto-Overclocking, game memory<\/p><p><b>Voltage<\/b> : 1.35 Volts<\/p><p><b>Column Address Strobe Latency<\/b> : 36 Picowatts<\/p><p><b>Form Factor<\/b> : DIMM<\/p><p><b>Data Transfer Rate<\/b> : 6000 MHz<\/p><p><b>Number of Pins<\/b> : 288<\/p><p><b>Brand<\/b> : KingBank<\/p><p><b>Model Name<\/b> : KJXS<\/p><p><b>Manufacturer<\/b> : Shenzhen KingBank Technology Co.,LTD.<\/p><p><b>Warranty Description<\/b> : lifetime<\/p><p><b>Best Sellers Rank<\/b> : n\/a<\/p><p><b>ASIN<\/b> : B0GF7QL37W<\/p><p><b>Customer Reviews<\/b> : 4.5               4.5 out of 5 stars         \n\n                         (130)      \n                    \n                    var dpAcrHasRegisteredArcLinkClickAction;\n                    P.when('A', 'ready').execute(function(A) {\n                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {\n                            dpAcrHasRegisteredArcLinkClickAction = true;\n                            A.declarative(\n                                'acrLink-click-metrics', 'click',\n                                { \"allowLinkDefault\": true },\n                                function (event) {\n                                    if (window.ue) {\n                                        ue.count(\"acrLinkClickCount\", (ue.count(\"acrLinkClickCount\") || 0) + 1);\n                                    }\n                                }\n                            );\n                        }\n                    });\n                \n                 \n            P.when('A', 'cf').execute(function(A) {\n                A.declarative('acrStarsLink-click-metrics', 'click', { \"allowLinkDefault\" : true },  function(event){\n                    if(window.ue) {\n                        ue.count(\"acrStarsLinkWithPopoverClickCount\", (ue.count(\"acrStarsLinkWithPopoverClickCount\") || 0) + 1);\n                    }\n                });\n            });\n        \n\n           \n       4.5 out of 5 stars<\/p><p><b>RAM Size<\/b> : 16 GB<\/p>               <hr aria-hidden=\"true\" class=\"a-divider-normal\">    <h2 class=\"a-size-base-plus a-text-bold\"> About this item <\/h2>                     <ul class=\"a-unordered-list a-vertical a-spacing-mini\">  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> \u3010XMP 3.0\/EXPO\u3011:Cross-platform compatibility, stable base frequency, overclocking to 6000MHz requires slots 2-4 (limited to overclocking motherboards).  <\/span><\/li>  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> \u3010Top chip\u3011: Adopts high-quality chip, which has been strictly screened and tested to ensure excellent performance and stable output.  <\/span><\/li>  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> \u3010Efficient heat dissipation\u3011: Equipped with 2mm thick alloy radiator, excellent thermal conductivity design, improves heat dissipation efficiency, and helps performance.  <\/span><\/li>  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> \u3010Boosted Performance\u3011: Experience a significant increase in bandwidth and enjoy improved overall performance. Whether you're engaging in intense game competitions or working on graphic design projects, this memory provides high efficiency.  <\/span><\/li>  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> Please update the BIOS to the latest version to ensure smooth operation of the device. At the same time, we provide a full range of customer services and quality control to ensure the performance and quality of the product.  <\/span><\/li>  <\/ul>   <!-- Loading EDP related metadata -->\n                    <div data-csa-c-content-id=\"voyager-product-details-jumplink\" data-csa-c-slot-id=\"voyager-product-details-jumplink\" data-csa-c-type=\"link\" class=\"a-section\" data-csa-c-id=\"3iufp2-ucvnuk-jwjovf-rpf7mp\"> <span class=\"caretnext\">\u203a<\/span> <a id=\"seeMoreDetailsLink\" class=\"a-link-normal\" href=\"#productDetails\"> See more product details <\/a> <\/div>            ",
+		"measurement": null,
+		"resource_meta": {
+			"object": "ResourceMeta",
+			"created_at": "2026-02-28T16:48:10.476615+00:00",
+			"updated_at": "2026-02-28T16:48:10.476622+00:00"
+		},
+		"specifications": {
+			"data": [
+				{
+					"id": "f74ecc84-4f73-40e0-9839-b34aac920521",
+					"label": "RAM Memory Technology",
+					"value": "DDR5",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "977e632f-137d-48a1-9c93-9eb6c35ec808",
+					"label": "Memory Speed",
+					"value": "6000 MT\/s",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "b541ce67-36d7-425f-96e9-7a3712c61e4d",
+					"label": "Compatible Devices",
+					"value": "Desktop",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "5c0a77b2-ccc3-4ca5-a6b8-1acb19ffaa12",
+					"label": "Additional Features",
+					"value": "Auto-Overclocking, game memory",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "a1b8e092-59bb-4009-b076-c8811c369039",
+					"label": "Voltage",
+					"value": "1.35 Volts",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "a8db1cf4-1844-4e0e-8238-229563975cf7",
+					"label": "Column Address Strobe Latency",
+					"value": "36 Picowatts",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "f6c044da-416c-407d-8fde-aebbd7f17c5c",
+					"label": "Form Factor",
+					"value": "DIMM",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "5dfbbf15-668d-4054-bfaf-f5ca74629778",
+					"label": "Data Transfer Rate",
+					"value": "6000 MHz",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "6b311753-f435-465c-8352-184bff0e5081",
+					"label": "Number of Pins",
+					"value": "288",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "d0fa6931-30b3-4469-ba81-dca1b81e39fb",
+					"label": "Brand",
+					"value": "KingBank",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "53129dc7-bf3b-414d-a9b3-f59fe1f1ffff",
+					"label": "Model Name",
+					"value": "KJXS",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "fd92ddb4-a126-4731-8d02-869fa268ccf8",
+					"label": "Manufacturer",
+					"value": "Shenzhen KingBank Technology Co.,LTD.",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "790a2d98-f7a1-49a7-b290-c80bcaea23a9",
+					"label": "Warranty Description",
+					"value": "lifetime",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "2443a4eb-d54d-436d-91f6-90909fb04ed3",
+					"label": "Best Sellers Rank",
+					"value": "n\/a",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "6c2138d4-3ff1-4b8d-97af-aa8115741da7",
+					"label": "ASIN",
+					"value": "B0GF7QL37W",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "2a38c616-1391-4df9-bcbf-d6243136df40",
+					"label": "Customer Reviews",
+					"value": "4.5               4.5 out of 5 stars         \n\n                         (130)      \n                    \n                    var dpAcrHasRegisteredArcLinkClickAction;\n                    P.when('A', 'ready').execute(function(A) {\n                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {\n                            dpAcrHasRegisteredArcLinkClickAction = true;\n                            A.declarative(\n                                'acrLink-click-metrics', 'click',\n                                { \"allowLinkDefault\": true },\n                                function (event) {\n                                    if (window.ue) {\n                                        ue.count(\"acrLinkClickCount\", (ue.count(\"acrLinkClickCount\") || 0) + 1);\n                                    }\n                                }\n                            );\n                        }\n                    });\n                \n                 \n            P.when('A', 'cf').execute(function(A) {\n                A.declarative('acrStarsLink-click-metrics', 'click', { \"allowLinkDefault\" : true },  function(event){\n                    if(window.ue) {\n                        ue.count(\"acrStarsLinkWithPopoverClickCount\", (ue.count(\"acrStarsLinkWithPopoverClickCount\") || 0) + 1);\n                    }\n                });\n            });\n        \n\n           \n       4.5 out of 5 stars",
+					"object": "ProductSpecification"
+				},
+				{
+					"id": "b9e4b8f7-a775-41bb-8b01-771aef4ba202",
+					"label": "RAM Size",
+					"value": "16 GB",
+					"object": "ProductSpecification"
+				}
+			],
+			"object": "ProductSpecificationCollection"
+		},
+		"title_original": "KingBank Computer Desktop Memory Ram DDR5 16GB(2x8GB) 6000MT\/s CL36 1.35V Overclocking XMP 3.0 & AMD Expo with Heatsink for PC Gaming\/Office\/PS,Silver at Amazon.com",
+		"resource_version": "v1",
+		"description_original": "<p><b>RAM Memory Technology<\/b> : DDR5<\/p><p><b>Memory Speed<\/b> : 6000 MT\/s<\/p><p><b>Compatible Devices<\/b> : Desktop<\/p><p><b>Additional Features<\/b> : Auto-Overclocking, game memory<\/p><p><b>Voltage<\/b> : 1.35 Volts<\/p><p><b>Column Address Strobe Latency<\/b> : 36 Picowatts<\/p><p><b>Form Factor<\/b> : DIMM<\/p><p><b>Data Transfer Rate<\/b> : 6000 MHz<\/p><p><b>Number of Pins<\/b> : 288<\/p><p><b>Brand<\/b> : KingBank<\/p><p><b>Model Name<\/b> : KJXS<\/p><p><b>Manufacturer<\/b> : Shenzhen KingBank Technology Co.,LTD.<\/p><p><b>Warranty Description<\/b> : lifetime<\/p><p><b>Best Sellers Rank<\/b> : n\/a<\/p><p><b>ASIN<\/b> : B0GF7QL37W<\/p><p><b>Customer Reviews<\/b> : 4.5               4.5 out of 5 stars         \n\n                         (130)      \n                    \n                    var dpAcrHasRegisteredArcLinkClickAction;\n                    P.when('A', 'ready').execute(function(A) {\n                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {\n                            dpAcrHasRegisteredArcLinkClickAction = true;\n                            A.declarative(\n                                'acrLink-click-metrics', 'click',\n                                { \"allowLinkDefault\": true },\n                                function (event) {\n                                    if (window.ue) {\n                                        ue.count(\"acrLinkClickCount\", (ue.count(\"acrLinkClickCount\") || 0) + 1);\n                                    }\n                                }\n                            );\n                        }\n                    });\n                \n                 \n            P.when('A', 'cf').execute(function(A) {\n                A.declarative('acrStarsLink-click-metrics', 'click', { \"allowLinkDefault\" : true },  function(event){\n                    if(window.ue) {\n                        ue.count(\"acrStarsLinkWithPopoverClickCount\", (ue.count(\"acrStarsLinkWithPopoverClickCount\") || 0) + 1);\n                    }\n                });\n            });\n        \n\n           \n       4.5 out of 5 stars<\/p><p><b>RAM Size<\/b> : 16 GB<\/p>               <hr aria-hidden=\"true\" class=\"a-divider-normal\">    <h2 class=\"a-size-base-plus a-text-bold\"> About this item <\/h2>                     <ul class=\"a-unordered-list a-vertical a-spacing-mini\">  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> \u3010XMP 3.0\/EXPO\u3011:Cross-platform compatibility, stable base frequency, overclocking to 6000MHz requires slots 2-4 (limited to overclocking motherboards).  <\/span><\/li>  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> \u3010Top chip\u3011: Adopts high-quality chip, which has been strictly screened and tested to ensure excellent performance and stable output.  <\/span><\/li>  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> \u3010Efficient heat dissipation\u3011: Equipped with 2mm thick alloy radiator, excellent thermal conductivity design, improves heat dissipation efficiency, and helps performance.  <\/span><\/li>  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> \u3010Boosted Performance\u3011: Experience a significant increase in bandwidth and enjoy improved overall performance. Whether you're engaging in intense game competitions or working on graphic design projects, this memory provides high efficiency.  <\/span><\/li>  <li class=\"a-spacing-mini\"><span class=\"a-list-item\"> Please update the BIOS to the latest version to ensure smooth operation of the device. At the same time, we provide a full range of customer services and quality control to ensure the performance and quality of the product.  <\/span><\/li>  <\/ul>   <!-- Loading EDP related metadata -->\n                    <div data-csa-c-content-id=\"voyager-product-details-jumplink\" data-csa-c-slot-id=\"voyager-product-details-jumplink\" data-csa-c-type=\"link\" class=\"a-section\" data-csa-c-id=\"3iufp2-ucvnuk-jwjovf-rpf7mp\"> <span class=\"caretnext\">\u203a<\/span> <a id=\"seeMoreDetailsLink\" class=\"a-link-normal\" href=\"#productDetails\"> See more product details <\/a> <\/div>            ",
+		"shipping_category": null,
+		"store_id": 7,
+		"provider": "inventory"
+	}
+}
